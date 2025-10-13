@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <title>Document</title>
 </head>
 <body>
@@ -18,7 +19,11 @@
 
             <div id="header-main">
                 <div class="container">
-                    <div id="header-main-logo">LOGO</div>
+                    <div id="header-main-logo">
+                        <a href="/">
+                            <img src="./assets/img/logo_bazik.png" alt="header logo">
+                        </a>
+                    </div>
                     <ul id="header-nav-main">
                         <li><a href="">Trang chủ</a></li>
                         <li><a href="">Gym & Trainning</a></li>
@@ -27,7 +32,26 @@
                         <li><a href="">Về Bazik</a></li>
                         <li><a href="">Tra cứu đơn hàng</a></li>
                     </ul>
-                    <div id="header-main-action">OKE</div>
+                    <div id="header-main-action">
+                        <div id="header-main-action-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div id="header-main-action-cart">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <div class="cart-info">
+                                <div class="cart-products">
+                                    <p>0 sản phẩm</p>
+                                    <a href="">Xem tất cả</a>
+                                </div>
+                                <div class="cart-message">
+                                    <h3>Không có sản phẩm nào trong giỏ hàng!</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="header-main-action-user">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
 
