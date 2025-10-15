@@ -70,6 +70,7 @@ html {
 	list-style-type: none;
 	display: flex;
 	padding-inline-start: 0px;
+	text-transform: uppercase;
 }
 
 #header-nav-main a {
@@ -196,12 +197,68 @@ html {
 #slider {
 	padding-top: 33%;
 	background: url('/assets/img/slide_1.jpg') top center / cover no-repeat;
+	margin-bottom: 40px;
 }
 
 #coupon {
+	background-color: #333;
+	margin-bottom: 40px;
+	height: 133px;
 }
 
 #banner {
+	margin: 50px 0px;
+}
+
+#banner .container {
+	height: 529px;
+	margin: 0px 87.5px;
+	padding: 0px 12px;
+	display: flex;
+}
+
+#banner .banner-item {
+	background-color: #fff;
+	padding: 0px 12px;
+	height: 100%;
+	width: 50%;
+}
+
+#banner .banner-item .banner-content {
+	position: relative;
+	height: 100%;
+}
+
+#banner .banner-item img {
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+#banner .content {
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	left: 80px;
+}
+
+#banner .content h2{
+	text-transform: uppercase;
+	font-size: 34px;
+	font-weight: 700px;
+	line-height: 40.8px;
+	margin-bottom: 10px;
+}
+
+#banner .content a{
+	color: white;
+	background-color: black;
+	display: inline-block;
+	border-radius: 25px;
+	padding: 5px 15px;
+	font-size: 16px;
+	font-weight: 400px;
+	line-height: 24px;
 }
 
 #product-list {
